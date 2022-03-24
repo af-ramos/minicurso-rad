@@ -2,31 +2,28 @@
 
 **TODO**
 
-# Setup at Ubuntu 20.04 LTS x64
-
-## Environment setup
-
-Git (**TODO**)
-Python (**TODO**)
-
-## Python setup
-
-Python venv **TODO**
-
-## Jupyter setup
-
-Make Jupyter venv **TODO**
-
 # Setup at Windows 10
 
 ## Environment setup
 
-Git (**TODO**)
-Python (**TODO**)
+Instale o Git utilizando o seguinte link: https://git-scm.com/
+
+Instale o Python utilizando o seguinte link: https://www.python.org/
+
+**OBS:** O Miniconda/Anaconda não foi utilizado por mim.
 
 ## Python setup
 
-Python venv **TODO**
+Para definir um virtual environment para os pacotes do Python é necessário rodar esses comandos:
+```bat
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+Para fazer as instalações dos pacotes, vamos utilizar os seguintes comandos:
+```bat
+pip install -r dev-requirements.txt
+```
 
 ## Jupyter setup
 
