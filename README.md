@@ -1,7 +1,3 @@
-# Source directory setup
-
-**TODO**
-
 # Setup at Windows 10
 
 ## Environment setup
@@ -24,7 +20,3 @@ Para fazer as instalações dos pacotes, vamos utilizar os seguintes comandos:
 ```bat
 pip install -r dev-requirements.txt
 ```
-
-## Jupyter setup
-
-Make Jupyter venv **TODO**
